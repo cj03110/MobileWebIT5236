@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            app:srcCompat="@drawable/firebrand_logo_one"
+            android:layout_marginBottom="-35dp"
+            android:id="@+id/imageView3" />
+
+        <TextView
+            android:text="LOGIN"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/textView2" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/userLogin"
+            android:layout_marginBottom="-15dp"
+            android:textAppearance="?android:textAppearanceSmall"
+
+            />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="PASSWORD"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/pwordLogin"
+            android:textAppearance="?android:textAppearanceSmall"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="LOGIN"
+            android:id="@+id/loginbtn"
+            />
+    </LinearLayout>
+
+</FrameLayout>

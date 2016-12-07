@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FireBrand</string>
+    <string name="signup">SIGN UP</string>
+    <string name="login">LOGIN</string>
+    <string name="email">EMAIL</string>
+    <string name="user">USERNAME</string>
+    <string name="pword">PASSWORD</string>
+    <string name="submit_id">SUBMIT</string>
+</resources>
